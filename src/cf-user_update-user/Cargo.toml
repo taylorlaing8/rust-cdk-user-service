@@ -1,0 +1,22 @@
+[package]
+name = "cf-user_update-user"
+version = "0.1.0"
+edition = "2021"
+
+# Use cargo-edit(https://github.com/killercup/cargo-edit#installation)
+# to manage dependencies.
+# Running `cargo add DEPENDENCY_NAME` will
+# add the latest version of a dependency to the list,
+# and it will keep the alphabetic ordering for you.
+
+[dependencies]
+cf-user_core = { path = "../cf-user_core" }
+aws-sdk-dynamodb = "0.33.0"
+aws-config = "0.56.0"
+lambda_http = "0.8.0"
+simple-error = "0.3.0"
+serde_json = "1.0.96"
+serde = { version = "1.0.163", features = ["derive"] }
+tokio = { version = "1.28.2", features = ["macros"] }
+tracing = { version = "0.1.37", features = ["log"] }
+tracing-subscriber = { version = "0.3.17", default-features = false, features = ["ansi", "fmt"] }

@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"name": "Core",
+			"path": "src/cf-user_core"
+		},
+		{
+			"name": "CreateUser",
+			"path": "src/cf-user_create-user"
+		},
+		{
+			"name": "GetUser",
+			"path": "src/cf-user_get-user"
+		},
+		{
+			"name": "UpdateUser",
+			"path": "src/cf-user_update-user"
+		},
+		{
+			"name": "DeleteUser",
+			"path": "src/cf-user_delete-user"
+		},
+		{
+			"name": "ListUsers",
+			"path": "src/cf-user_list-users"
+		},
+		{
+			"name": "<Project Root>",
+			"path": "."
+		}
+	]
+}

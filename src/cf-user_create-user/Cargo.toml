@@ -1,0 +1,16 @@
+[package]
+name = "cf-user_create-user"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aws-sdk-dynamodb = "0.33.0"
+aws-config = "0.56.0"
+cf-user_core = { path = "../cf-user_core" }
+lambda_http = "0.8.0"
+simple-error = "0.3.0"
+serde_json = "1.0.96"
+serde = { version = "1.0.163", features = ["derive"] }
+tokio = { version = "1.28.2", features = ["macros"] }
+tracing = { version = "0.1.37", features = ["log"] }
+tracing-subscriber = { version = "0.3.17", default-features = false, features = ["ansi", "fmt"] }
